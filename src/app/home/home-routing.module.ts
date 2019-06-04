@@ -1,8 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HowitworkComponent } from './howitwork/howitwork.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 const routes: Routes = [
-  { path: '', component: HowitworkComponent }
+  { path: 'welcome', component: WelcomeComponent },
+  { path: 'howitwork', component: HowitworkComponent },
+  { path: '', redirectTo: 'welcome', pathMatch: 'full' },
+  { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
 ];
 
 @NgModule({
