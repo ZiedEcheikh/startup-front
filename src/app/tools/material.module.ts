@@ -9,7 +9,6 @@ import {
   MatIconModule,
   MatCardModule
 } from '@angular/material';
-
 @NgModule({
   imports: [
     MatInputModule,
@@ -28,6 +27,7 @@ import {
     MatToolbarModule,
     MatIconModule,
     MatCardModule
-  ]
+  ],
+  declarations: [RequestOptionsComponent]
 })
 export class MaterialModule {}
