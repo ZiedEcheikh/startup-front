@@ -28,6 +28,6 @@ import {
     MatIconModule,
     MatCardModule
   ],
-  declarations: [RequestOptionsComponent]
+  declarations: []
 })
 export class MaterialModule {}

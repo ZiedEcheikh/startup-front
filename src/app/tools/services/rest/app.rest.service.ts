@@ -6,7 +6,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpRequest, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import 'rxjs/add/operator/map';
 import { RestConfig } from './rest.config';
 import { RequestMethod } from './request-method.enum';
 import { RequestOptions } from './request-options';
